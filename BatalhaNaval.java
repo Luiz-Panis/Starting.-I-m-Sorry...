@@ -9,7 +9,7 @@ public class BatalhaNaval{
   public static void main(String[] args){
     
     int ponto = 0;
-//---------------------------------------------------------------------------------------------------------------     
+//------------------------------------------------------------------------------------------------------------
     
     //Verificacao de tamanho minimo para o tabuleiro.
     while(lin * col <= 5){
@@ -58,7 +58,7 @@ public class BatalhaNaval{
     
 //---------------------------------------------------------------------------------------------------------------   
     
-    //Geraçao das posicoes dos navios sem ter repetiçoes.
+    //Geraï¿½ao das posicoes dos navios sem ter repetiï¿½oes.
     for(int cont = 0; cont < 5;cont++){
       NC = GeradorColunas();
       NL = GeradorLinhas();
